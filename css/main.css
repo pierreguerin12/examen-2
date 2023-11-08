@@ -35,13 +35,17 @@ html {
 a {
   color: inherit;
   color: #0500ff;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
   font-size: 1rem;
   line-height: 1.25;
 }
@@ -53,10 +57,79 @@ video {
   vertical-align: middle;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+.dates-acceuil {
+  color: #0500ff;
+  text-align: right;
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h1 {
+  color: #0500ff;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.restaurant-conceptuel {
+  color: #0500ff;
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.acceuil-rectangle {
+  border: 1px solid #0500ff;
+  background: var(--bleu-ciel, #def3fa);
+}
+
+.navigation-total {
+  border: 1px solid #0500ff;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background-image: url(../img/nuage.png);
+  padding: 78px 91px;
+}
+
+.citation-total {
+  border: 1px solid #0500ff;
+  background: var(--bleu-ciel, #def3fa);
+  color: #000;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 32px; /* 133.333% */
+  padding: 150px 90px;
+}
+
+.carte-total {
+  border: 1px solid #0500ff;
+  background: var(--bleu-lctrique, #0500ff);
+}
+
+h3 {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding: 199px 230px 95px 213px;
+}
+
+.menu {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 199px 230px 95px 213px;
 }
