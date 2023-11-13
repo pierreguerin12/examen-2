@@ -65,6 +65,7 @@ video {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding: 78px 91px;
 }
 
 h1 {
@@ -73,6 +74,7 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding: 48px 0px 0px 78px;
 }
 
 .restaurant-conceptuel {
@@ -82,6 +84,7 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding: 78px 91px;
 }
 
 .acceuil-rectangle {
@@ -112,6 +115,14 @@ h1 {
 .carte-total {
   border: 1px solid #0500ff;
   background: var(--bleu-lctrique, #0500ff);
+  color: #fff;
+  font-family: Raleway;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 65px 0px;
 }
 
 h3 {
@@ -121,7 +132,7 @@ h3 {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  padding: 199px 230px 95px 213px;
+  padding: 150px 230px 25px 213px;
 }
 
 .menu {
@@ -131,5 +142,35 @@ h3 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  padding: 199px 230px 95px 213px;
+  padding: 0px 230px 95px 213px;
+}
+
+.cdls {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.plus {
+  border-radius: 60px 60px 60px 60px;
+  border: 1px solid #0500ff;
+  background: #fff;
+  color: #0500ff;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+}
+
+.plus-center {
+  display: flex;
+  justify-content: center;
 }
