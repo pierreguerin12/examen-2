@@ -219,3 +219,45 @@ h3 {
   line-height: normal;
   padding: 50px;
 }
+
+.contact-en-bas {
+  color: #0500ff;
+  font-family: Raleway;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.chemin {
+  color: #0500ff;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.mail {
+  color: #0500ff;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.logo {
+  color: #0500ff;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contact-total {
+  fill: #def3fa;
+  stroke-width: 1px;
+  stroke: #0500ff;
+}
