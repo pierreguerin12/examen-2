@@ -2,9 +2,6 @@
 // css variables
 // ==================================== */
 
-:root {
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
@@ -181,4 +178,44 @@ h3 {
   height: 318, 94px;
   flex-shrink: 0;
   background-color: #0500ff;
+}
+
+.bleu-clair {
+  border: 1px solid #0500ff;
+  background: #def3fa;
+  width: 390px;
+  height: 181px;
+  flex-shrink: 0;
+}
+
+.reserver {
+  border: 1px solid #0500ff;
+  background: #def3fa;
+  width: 390px;
+  height: 181px;
+  flex-shrink: 0;
+  color: #0500ff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 50px;
+}
+
+.horaire-calendrier {
+  border: 1px solid #0500ff;
+  background: #def3fa;
+  width: 390px;
+  height: 181px;
+  flex-shrink: 0;
+  color: #0500ff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 50px;
 }
