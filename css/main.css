@@ -174,3 +174,11 @@ h3 {
   display: flex;
   justify-content: center;
 }
+
+.carre-bleu {
+  display: flex;
+  width: 309, 5px;
+  height: 318, 94px;
+  flex-shrink: 0;
+  background-color: #0500ff;
+}
