@@ -227,6 +227,7 @@ h3 {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  text-align: left;
 }
 
 .mail {
@@ -236,6 +237,7 @@ h3 {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  text-align: center;
 }
 
 .logo {
@@ -245,16 +247,10 @@ h3 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-}
-
-.contact-total {
-  fill: #def3fa;
-  stroke-width: 1px;
-  stroke: #0500ff;
+  text-align: right;
 }
 
 .ensemble {
-  fill: #def3fa;
-  stroke-width: 1px;
-  stroke: #0500ff;
+  background-color: #def3fa;
+  border: 1px solid #0500ff;
 }
